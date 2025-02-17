@@ -1,0 +1,11 @@
+.payment-area__card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.payment-area__input-wrappers{
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}

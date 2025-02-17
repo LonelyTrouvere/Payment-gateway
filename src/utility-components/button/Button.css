@@ -1,0 +1,8 @@
+.custom-button {
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    bottom: 0px;
+    cursor: pointer;
+    position: relative;
+}

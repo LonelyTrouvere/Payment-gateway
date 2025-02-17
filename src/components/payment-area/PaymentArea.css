@@ -1,0 +1,38 @@
+.payment-area {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.payment-area__payment {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payment-area__divider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-area__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (max-width: 999px) {
+    .payment-area__order {
+        text-align: center;
+    }
+}
+
+.payment-area__checkout {
+    position: relative;
+}
+
+.payment-area__arrow {
+    position: absolute;
+    left: -30px;
+}

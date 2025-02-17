@@ -1,0 +1,18 @@
+.order-card {
+    background-color: #F7F7F9;
+    border-radius: 8px;
+    padding: 12px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.order-card__main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.order-card__total {
+    text-align: right;
+}
